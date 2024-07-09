@@ -7,19 +7,19 @@ from pyrogram import filters
 load_dotenv()
 
 # Get this value from my.telegram.org/apps.
-API_ID = int(getenv("API_ID"))
-API_HASH = getenv("API_HASH")
+API_ID = int(getenv("API_ID", "20064905"))
+API_HASH = getenv("API_HASH", "1d7b8bc02a512bfbf2014bd7d5b7eff2")
 # Get your token from @BotFather on Telegram.
-BOT_TOKEN = getenv("BOT_TOKEN")
+BOT_TOKEN = getenv("BOT_TOKEN", "7328867796:AAGsdKH9eZ8wkcqiPm9G-fYEz2mFqtqMy6g")
 # Add Owner Username without @ 
 OWNER_USERNAME = getenv("OWNER_USERNAME","VICKY_CHOUDHARY_1203")
 # Get Your bot username
-BOT_USERNAME = getenv("BOT_USERNAME" , "PAKHI_MUSIC_BOT")
+BOT_USERNAME = getenv("BOT_USERNAME" , "PAKHI_MUSIC_ROBOT")
 # Don't Add style font 
 BOT_NAME = getenv("BOT_NAME" , "𝐏αкнι ✗ ɱυѕιƈ, 🎶 [ᴠ ᴘ]")
 #get Your Assistant User name
-ASSUSERNAME = getenv("ASSUSERNAME" , "GUPP_SHUP_ASSTANT")
-EVALOP = list(map(int, getenv("EVALOP", "7001982096").split()))
+ASSUSERNAME = getenv("ASSUSERNAME" , "PAKHI_MUSIC_ASSISTANT")
+EVALOP = list(map(int, getenv("EVALOP", "5711923161").split()))
 # Get your mongo url from cloud.mongodb.com
 MONGO_DB_URI = getenv("MONGO_DB_URI")
 
@@ -31,7 +31,7 @@ LOGGER_ID = int(getenv("LOGGER_ID", -1002136795173))
 # ------------------------------------------------
 GPT_API = getenv("GPT_API")
 # Get this value from  on Telegram by /id
-OWNER_ID = int(getenv("OWNER_ID", 7001982096))
+OWNER_ID = int(getenv("OWNER_ID", 5711923161))
 
 ## Fill these variables if you're deploying on heroku.
 # Your heroku app name
