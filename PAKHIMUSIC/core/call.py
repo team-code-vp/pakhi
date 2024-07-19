@@ -41,7 +41,7 @@ from PAKHIMUSIC.utils.database import (
 from PAKHIMUSIC.utils.exceptions import AssistantErr
 from PAKHIMUSIC.utils.inline.play import stream_markup, telegram_markup
 from PAKHIMUSIC.utils.stream.autoclear import auto_clean
-from PAKHIMUSIC.utils.thumbnails import gen_thumb
+from PAKHIMUSIC.utils.thumbnails import get_thumb
 from strings import get_string
 
 autoend = {}
