@@ -693,4 +693,4 @@ class Call(PyTgCalls):
                 autoend[chat_id] = {}
 
 
-PAKHI = Call()
+JARVIS = Call()
