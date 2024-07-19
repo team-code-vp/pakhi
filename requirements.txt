@@ -27,7 +27,7 @@ qrcode
 pytz
 future==0.18.3
 search_engine_parser
-py-tgcalls==0.9.7
+py-tgcalls==2.0.2
 pykeyboard
 pyshorteners
 git+https://github.com/vicky0604hello/pyrogram
@@ -55,3 +55,4 @@ img2pdf
 cloudscraper
 pycryptodome
 opencv-python
+ntgcalls==1.2.1
