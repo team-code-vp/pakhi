@@ -3,6 +3,7 @@ from typing import Dict, List, Union
 
 from PAKHIMUSIC import userbot
 from PAKHIMUSIC.core.mongo import mongodb
+from pytgcalls.types import AudioQuality
 
 authdb = mongodb.adminauth
 authuserdb = mongodb.authuser
